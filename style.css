@@ -1,0 +1,128 @@
+body {
+    background: linear-gradient(to right, #000000, #393939);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+
+main {
+    margin-top: 30px; 
+    padding: 20px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0; 
+    backdrop-filter: blur(2px);
+    padding-bottom: 20px;
+}
+
+h1 {
+    top: -20px;
+    display: inline-block;
+    margin-left: 2%;
+    padding: 5px;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+}
+
+nav {
+    width: 50%;
+    margin-top: -70px;
+    margin-left: 40%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-left: 5px solid #ffffff;
+    border-right: 5px solid #ffffff;
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 0 10%;
+}
+
+nav a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.text-window {
+    margin: 3%;
+    width: 44%;
+    display: block;
+    padding: 20px;
+    background-color: #ffffff;
+    opacity: 0.8;
+    color: #000000;
+}
+
+.text-window:hover {
+    opacity: 1;
+}
+
+.hero {
+    background: linear-gradient(to right, #1f1f1f, #444);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin-top: 80px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    opacity: 1;
+}
